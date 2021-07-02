@@ -1,0 +1,14 @@
+2021-07-02 07:08:30 [ERROR]: log level: info
+2021-07-02 07:08:30 [INFO]: Retrieving AWS endpoint data
+2021-07-02 07:08:30 [INFO]: OS:  Linux x64 4.14.232-176.381.amzn2.x86_64
+2021-07-02 07:08:30 [INFO]: AWS Cloud9 Extension Host Version:  1.42.0
+2021-07-02 07:08:30 [INFO]: AWS Toolkit Version:  1.25.0-1c2c5a28c7e5
+2021-07-02 07:08:30 [ERROR]: [SyntaxError: Unexpected token t in JSON at position 198
+	at JSON.parse (<anonymous>)
+	at Function.readEventsFromCache (/opt/c9/dependencies/aws-toolkit-vscode/b3e266ee611108735163c1d5aaa668832ac59a99eb1ce1f39b6c7d7e93dbf4118301c9fb320e578554948e0447cc97dc0b6d7cdf140af16f00935f9f75b976e4/dist/extension.js:2713:3193)
+	at Tg.start (/opt/c9/dependencies/aws-toolkit-vscode/b3e266ee611108735163c1d5aaa668832ac59a99eb1ce1f39b6c7d7e93dbf4118301c9fb320e578554948e0447cc97dc0b6d7cdf140af16f00935f9f75b976e4/dist/extension.js:2713:398)
+	at Module.e0 (/opt/c9/dependencies/aws-toolkit-vscode/b3e266ee611108735163c1d5aaa668832ac59a99eb1ce1f39b6c7d7e93dbf4118301c9fb320e578554948e0447cc97dc0b6d7cdf140af16f00935f9f75b976e4/dist/extension.js:2945:795)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+	at async activate (/opt/c9/dependencies/aws-toolkit-vscode/b3e266ee611108735163c1d5aaa668832ac59a99eb1ce1f39b6c7d7e93dbf4118301c9fb320e578554948e0447cc97dc0b6d7cdf140af16f00935f9f75b976e4/extensionMain.js:28:12)
+	at async Promise.all (index 0)]
+2021-07-02 07:13:30 [INFO]: Successfully sent a telemetry batch of 3
